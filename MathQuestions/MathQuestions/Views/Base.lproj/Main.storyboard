@@ -29,6 +29,9 @@
                                         <state key="normal" title="(answer3)">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="qDK-0f-C8f" eventType="touchUpInside" id="EvD-9H-Jol"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N74-cb-EXy">
                                         <rect key="frame" x="150" y="0.0" width="120" height="120"/>
@@ -40,6 +43,9 @@
                                         <state key="normal" title="(answer4)">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="qDK-0f-C8f" eventType="touchUpInside" id="6px-vi-8wy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -69,6 +75,9 @@
                                         <state key="normal" title="(answer1)">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="qDK-0f-C8f" eventType="touchUpInside" id="Jhd-yw-paM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xT-qu-Qe9">
                                         <rect key="frame" x="150" y="0.0" width="120" height="120"/>
@@ -80,6 +89,9 @@
                                         <state key="normal" title="(answer2)">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="qDK-0f-C8f" eventType="touchUpInside" id="NBX-7O-Qje"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -120,6 +132,14 @@
                             <constraint firstItem="BjH-34-t86" firstAttribute="centerX" secondItem="SxM-1a-KfY" secondAttribute="centerX" id="xsW-fJ-zWd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1" destination="XAa-9K-o1L" id="2rr-Bb-IXe"/>
+                        <outlet property="choice2" destination="8xT-qu-Qe9" id="U4h-w4-pMO"/>
+                        <outlet property="choice3" destination="Vqp-FX-IPe" id="79c-PH-fnf"/>
+                        <outlet property="choice4" destination="N74-cb-EXy" id="9yx-mq-jWm"/>
+                        <outlet property="questionLabel" destination="BjH-34-t86" id="HOh-KJ-7C0"/>
+                        <outlet property="scoreLabel" destination="Xzw-rt-J5a" id="1uo-WS-xDm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kn9-7c-cwu" sceneMemberID="firstResponder"/>
             </objects>
