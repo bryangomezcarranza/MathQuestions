@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="h92-LD-Rdf">
             <objects>
-                <viewController id="qDK-0f-C8f" customClass="ViewController" customModule="MathGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qDK-0f-C8f" customClass="ViewController" customModule="MathQuestions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PLs-87-A55">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
